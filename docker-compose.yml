@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  hypatia:
+    build: .
+    image: hypatia:local
+    container_name: hypatia
+    tty: true
+    volumes:
+      - ./hypatia-io:/hypatia-io
