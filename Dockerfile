@@ -21,7 +21,7 @@ RUN sed -i '/sudo apt-get update/d' hypatia_install_dependencies.sh && sed -i 's
 RUN chmod +x hypatia_build.sh && ./hypatia_build.sh
 
 # Run tests
-RUN chmod +x hypatia_run_tests.sh && ./hypatia_run_tests.sh
+#RUN chmod +x hypatia_run_tests.sh && ./hypatia_run_tests.sh
 
 # Release some space...
 RUN apt-get clean \

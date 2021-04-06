@@ -8,4 +8,5 @@ https://github.com/snkas/hypatia inside Docker
 - Start the container: `docker-compose up`
 - Create a terminal in the container: `docker exec -it hypatia bash`
 - To reproduce the paper run `cd paper && chmod +x paper.sh && ./paper.sh`
+- If it does not run uncomment the call to `./hypatia_run_tests.sh` in the Dockerfile and rebuild to see whats wrong.
 - The folder `./hypatia-io` maps to `/hypatia-io` for I/O
